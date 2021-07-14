@@ -4,9 +4,6 @@
             <div class="card">
                 <div class="card-header d-flex text-center text-sm-left">
                     Mari, mulai analisis kriteria !
-                    <a href="#" class="text-secondary ml-auto">
-                        <i class="fas fa-undo"></i>
-                    </a>
                 </div>
                 <div class="card-body pb-1">
                     <form class="row" @submit.prevent="setValue">

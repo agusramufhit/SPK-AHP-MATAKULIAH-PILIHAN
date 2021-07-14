@@ -75,7 +75,7 @@
 
         <aside class="main-sidebar sidebar-light-info elevation-4" style="overflow-x: hidden;">
             <a href="{{ url('/') }}" class="brand-link bg-info">
-                <img src="{{ asset('images/house.png') }}" alt="APP Logo" class="brand-image p-1 bg-white img-circle" style="opacity: .8">
+                <img src="{{ asset('images/user.png') }}" alt="APP Logo" class="brand-image p-1 bg-white img-circle" style="opacity: .8">
                 <span class="brand-text font-weight-bold">SPK</span>
             </a>
 

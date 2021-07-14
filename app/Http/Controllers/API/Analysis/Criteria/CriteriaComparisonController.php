@@ -42,4 +42,5 @@ class CriteriaComparisonController extends Controller
         }
         return response()->json(['message' => 'Pembobotan disimpan!']);
     }
+    
 }

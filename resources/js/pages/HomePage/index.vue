@@ -46,7 +46,7 @@ export default {
             result: [],
             criterias: [],
             alternatives: [],
-            colors: ['rgba(190, 229, 235, 0.7)', 'rgba(176, 221, 153, 0.7)', 'rgba(226, 193, 192, 0.7)', 'rgba(111, 172, 204, 0.3)', 'rgba(253, 175, 0, 0.4)']
+            colors: ['rgba(190, 229, 235, 0.7)', 'rgba(176, 221, 153, 0.7)', 'rgba(226, 193, 192, 0.7)', 'rgba(255, 159, 64, 0.2)']
         }
     },
     watch: {

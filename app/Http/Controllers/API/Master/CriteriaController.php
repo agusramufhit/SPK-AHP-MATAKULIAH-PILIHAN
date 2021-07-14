@@ -25,7 +25,7 @@ class CriteriaController extends Controller
         ]);
 
         $criteria = Criteria::create($request->all());
-        $criteria = CriteriaComparison::updateOrCreate(
+        $comparison = CriteriaComparison::updateOrCreate(
             ['first_criteria_id' => $criteria->id, 'second_criteria_id' => $criteria->id],
             ['value' => 1]
         );
